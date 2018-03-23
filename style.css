@@ -1,0 +1,185 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  background-color: #FEF5E7;
+}
+
+/* .headline {
+  padding-top: 10px;
+  padding-bottom: 8px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+} */
+
+#banner {
+  background-size: cover;
+  background-image: url('/Users/margaretdenison/Desktop/projects/Tribute/AnimalWelfare_A4_Web.jpg');
+  background-position: center;
+  height: 46rem;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+
+  /* align-items: center;
+  text-align: center; */
+}
+
+h1 {
+  padding-top: 2%;
+  font-size: 4.5rem;
+  font-weight: bold;
+  font-family: 'Pacifico', cursive;
+  /* margin: 0; */
+  padding-left: 2%;
+  margin: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: 'Nanum Gothic', sans-serif;
+  /* margin: 0 auto; */
+  margin: 0;
+  padding-left: 3%;
+  padding-top: 1%;
+}
+
+p {
+  margin: 0;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+/* img {
+  height: auto;
+  width: 100%;
+} */
+
+/* .image {
+  /* background-color: white; */
+  /* margin: 0 auto; */
+/* } */
+
+.photo {
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* .caption {
+  margin: 0 auto;
+  width: 900px;
+  background-color: white;
+  padding-bottom: 5px;
+  padding-top: 2px;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 12px;
+} */
+
+.jumbotron {
+  margin: 2.5% 4.5% 2.5% 4.5%;
+}
+
+/* .content{ */
+  /* min-width: 100%; */
+/* } */
+
+.list-headline {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  text-align: center;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+h3 {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: 500%;
+  font-size: 2rem;
+}
+
+.quote {
+  padding-top: 1rem;
+  padding-bottom: 40%;
+  margin: 0 auto;
+  width: 50%;
+  font-size: 1.5rem;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-style: italic;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0 auto;
+  width: 70%;
+  font-family: 'Nanum Gothic', sans-serif;
+  text-align: left;
+}
+
+.line {
+  padding-top: 0.34rem;
+  padding-bottom: 5%;
+}
+
+@media only screen and (min-width: 861px) and (max-width: 1200px){
+  .media-size {
+    display: block;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+}
+
+@media only screen and (min-width: 301px) and (max-width: 860px), (orientation: portrait) {
+  h1 {
+    font-size: 3rem;
+  }
+  .media-size {
+    display: block;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  #banner {
+    height: 24rem;
+    width: auto;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  ul {
+    font-size: 1rem;
+    width: 80%;
+  }
+  .quote {
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 300px), (orientation: portrait) {
+  h1 {
+    display: none;
+  }
+  .media-size {
+    display: block;
+  }
+  h2 {
+  display: none;
+  }
+  #banner {
+    top: 5rem;
+    height: 24rem;
+    width: auto;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  ul {
+    font-size: 1rem;
+    width: 80%;
+  }
+  .quote {
+    font-size: 1rem;
+  }
+}
