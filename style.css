@@ -17,7 +17,7 @@ body {
 
 #banner {
   background-size: cover;
-  background-image: url('/Users/margaretdenison/Desktop/projects/Tribute/AnimalWelfare_A4_Web.jpg');
+  background-image: url('AnimalWelfare_A4_Web.jpg');
   background-position: center;
   height: 46rem;
   background-repeat: no-repeat;
